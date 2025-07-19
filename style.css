@@ -200,3 +200,33 @@ footer {
     font-size: 0.9rem;
     border-top: 1px solid #ddd;
 }
+/* Social links section */
+#socials {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: orange;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-links a i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: white;
+}
